@@ -1,0 +1,35 @@
+:root{
+  --main-black: #000814;
+  --main-dark-blue: #001d3d;
+  --main-blue: #003566;
+  --main-yellow: #ffc300;
+  --main-light-yellow: #ffd60a;
+  --main-font-color: white;
+  /* palette from coolrs.co */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-black);
+  color: var(--main-font-color);
+}
+
+a {
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
